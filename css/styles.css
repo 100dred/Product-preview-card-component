@@ -1,0 +1,119 @@
+body {
+    background-color: #FFF1DC;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+
+
+.container {
+    background-color: white;
+    display: flex;
+    border-radius: 1rem;
+    width: 39rem;
+    height: 33.5rem;
+}
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+
+.perfume-img {
+    width: 313px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.head {
+    padding-top: 1rem;
+    letter-spacing: 0.5rem;
+    color: #787A91;
+}
+
+
+.tittle {
+    width: 14rem;
+    font-size: 2.2rem;
+    line-height: 1.1;
+    margin-top: 0;
+    color: #222831;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.description {
+    width: 13rem;
+    line-height: 1.7;
+    margin-top: 0;
+    color: #787A91;
+}
+
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+
+.discount-price {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: #5B8A72;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.main-price {
+    margin-top: -30px;
+    text-decoration: line-through;
+}
+
+
+button {
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    padding: 1rem 4.5rem;
+    border-style: none;
+    color: white;
+    background-color: #5B8A72;
+}
+
+
+.cart-img {
+    margin-right: 1rem;
+}
+
+
+button:hover {
+    background-color: #3C6255;
+    cursor: pointer;
+}
+
+
+.attribution {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+
+
+.attribution a {
+    text-decoration: none;
+    color: #787A91;
+}
+
+
+a:hover {
+    color: #222831;
+
+}
